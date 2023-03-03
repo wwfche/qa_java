@@ -12,9 +12,9 @@ public class FelineNoParamTest extends BaseTest {
     }
 
     @Test
-    public void testKetKittens() {
+    public void testSeveralKittens() {
         Feline feline = new Feline();
-        assertEquals("Должно быть - 1", 1, feline.getKittens());
+        assertEquals("Должно быть - 2", 2, feline.getKittens(2));
     }
 
     @Test
